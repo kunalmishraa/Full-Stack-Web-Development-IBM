@@ -1,0 +1,474 @@
+**HTML and HTML5 Elements Cheat Sheet**
+
+| Element | Description | Example |
+| --- | --- | --- |
+| <!DOCTYPE html> | All HTML documents must start with this declaration. It tells the browser what document type to expect. Note that this element has no ending tag. | 
+1. 1
+2. 2
+3. 3
+4. 4
+5. 5
+6. 6
+7. 7
+8. 8
+9. 9
+10. 10
+11. 11
+1. 
+2. 
+3. <!DOCTYPE html>
+4. <html>
+5.     <head>
+6.         <title>Document Title</title>
+7.     </head>
+8.     <body>
+9.         Document body here
+10.     </body>
+11. </html>Copied! |
+| <a href= "path"> | This tag, called an "anchor tag" creates hyperlinks using the href attribute. In place of path enter the URL or path name to the page you want to link to. | <a href="https://www.ibm.com">IBM</a> |
+| <article> | Identifies a self-contained piece of content that could be distributed to other websites and platforms as a stand- alone unit. Similar to <div> tag in that it does not render as anything special in the browser unless it is styled with CSS. | 
+1. 1
+2. 2
+3. 3
+4. 4
+5. 5
+6. 6
+1. <article class="CSS-Style-Reference">
+2. <h2>HTML</h2>
+3. <p>HTML stands for Hypertext Markup Language. 
+4. It is a standardized system for tagging text files to display specific
+5. font, color, graphics, and hyperlinks on World Wide Web pages.</p>
+6. </article>Copied! |
+| <aside> | Defines some content aside from the content it is placed in. Similar to <div> tag in that it does not render as anything special in the browser unless it is styled with CSS. | 
+1. 1
+2. 2
+3. 3
+4. 4
+1. <aside>
+2. Use the aside tag to represent a section of a page that consists 
+3. of content tangentially related to the content.
+4. </aside>Copied! |
+| <body> | Contains the contents of the HTML document. It should contain all other tags besides the <head> element to display the body of the document. | 
+1. 1
+2. 2
+3. 3
+4. 4
+5. 5
+6. 6
+7. 7
+8. 8
+9. 9
+1. <!DOCTYPE html>
+2. <html>
+3. <head>
+4. <title>Document Title</title>
+5. </head>
+6. <body>
+7. Document body here
+8. </body>
+9. </html>Copied! |
+| <div> | Often used to separate sections in the body of a document in order to style that content with CSS. | 
+1. 1
+2. 2
+3. 3
+4. 4
+1. <div>
+2. This element has no particular semantic meaning but is often used 
+3. in conjunction with CSS for styling purposes.
+4. </div>Copied! |
+| <fieldset> | Groups related elements in a form and puts a box around them. | 
+1. 1
+2. 2
+3. 3
+4. 4
+5. 5
+6. 6
+7. 7
+8. 8
+9. 9
+10. 10
+1. <form action= "/script.php">
+2. <fieldset>
+3. <legend>User:</legend>
+4. <label for="fname">First name:</label>
+5. <input type="text" id="fname" name="fname"><br><br>
+6. <label for="lname">Last name:</label>
+7. <input type="text" id="lname" name="lname"><br><br>
+8. <input type="submit" value="Submit">
+9. </fieldset>
+10. </form>Copied! |
+| <figcaption> | Used in conjunction with the <figure> tag to mark up an image. | 
+1. 1
+2. 2
+3. 3
+4. 4
+5. 5
+1. <figure>
+2. <img src="durham.jpg">
+3. <figcaption>Fig.1 - Durham, NC</figcaption>
+4. </figure>
+5.  Copied! |
+| <figure> | Used to mark up an image in conjunction with the <figcaption> tag. | 
+1. 1
+2. 2
+3. 3
+4. 4
+5. 5
+1. <figure>
+2. <img src="durham.jpg">
+3. <figcaption>Fig.1 - Durham, NC</figcaption>
+4. </figure>
+5.  Copied! |
+| <footer> | Contains a footer of a document and often contains information such as authoring, copyright info, contact info, sitemap, and related documents. | 
+1. 1
+2. 2
+3. 3
+4. 4
+1. <footer>
+2. <p>Author: Christopher Moore</p>
+3. </footer>
+4. <form action="/script.php">Copied! |
+| <form> | Creates an HTML form for user input. | 
+1. 1
+2. 2
+3. 3
+4. 4
+5. 5
+6. 6
+7. 7
+8. 8
+9. 9
+10. 10
+1. <form action="/script.php">
+2. <fieldset>
+3. <legend>User:</legend>
+4. <label for= "fname">First name:</label>
+5. <input type="text" id="fname" name="fname"><br><br>
+6. <label for= "lname">Last name:</label>
+7. <input type="text" id="lname" name="lname"><br><br>
+8. <input type="submit" value="Submit">
+9. </fieldset>
+10. </form>Copied! |
+| <h1> | Adds a level 1 heading to the HTML document. | <h1>Thomas J. Watson</h1> |
+| <head> | Contains metadata and should be placed after the <html> tag and before the <body> tag. | 
+1. 1
+2. 2
+3. 3
+4. 4
+5. 5
+6. 6
+7. 7
+8. 8
+9. 9
+1. <!DOCTYPE html>
+2. <html>
+3. <head>
+4. <title>Document Title</title>
+5. </head>
+6. <body>
+7. Document body here
+8. </body>
+9. </html>Copied! |
+| <header> | A container for introductory content such as heading elements, logo, or authoring information. | 
+1. 1
+2. 2
+3. 3
+4. 4
+5. 5
+1. <header>
+2. <h1>Header tag example</h1>
+3. <p>It works as a container for introductory content such as heading elements, logo, or authoring information.</p>
+4. <p>Author: Christopher Moore</p>
+5. </header>Copied! |
+| <html> | The root element of an HTML document. All other tags in the document should be contained in this tag. | 
+1. 1
+2. 2
+3. 3
+4. 4
+5. 5
+6. 6
+7. 7
+8. 8
+9. 9
+1. <!DOCTYPE html>
+2. <html>
+3. <head>
+4. <title>Document Title</title>
+5. </head>
+6. <body>
+7. Document body here
+8. </body>
+9. </html>Copied! |
+| <img src="path" width="dim1" height="dim2"> | This tag is used to place an img. In place of path insert a URL or a relative file path to the image location. Other optional attributes include width and height of the image in pixels. | 
+1. 1
+2. 2
+3. 3
+4. 4
+1. <img
+2. src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Thomas_J_Watson_Sr.jpg" 
+3. width="300" 
+4. height="300">Copied! |
+| <input type="?"> | Specifies an input field on a form with the type attribute. Common input types include: "color," "date," "datetime- local," "email," "number," "range," "search," "url," "tel," "datalist," "select," "text," "option," and "placeholder." | 
+1. 1
+2. 2
+3. 3
+4. 4
+5. 5
+6. 6
+7. 7
+8. 8
+9. 9
+10. 10
+1. <form action="/script.php">
+2. <fieldset>
+3. <legend>User:</legend>
+4. <label for="fname">First name:</label>
+5. <input type="text" id="fname" name="fname"><br><br>
+6. <label for="lname">Last name:</label>
+7. <input type="text" id="lname" name="lname"><br><br>
+8. <input type="submit" value="Submit">
+9. </fieldset>
+10. </form>Copied! |
+| <li> | Element that creates bulleted line items in an ordered or unordered list. Should be used in conjunction with the <ul> or <ol> tags. | 
+1. 1
+2. 2
+3. 3
+4. 4
+5. 5
+1. <ul>
+2. <li>Bullet point 1</li>
+3. <li>Bullet point 2</li>
+4. </ul>
+5.  Copied! |
+| <link> | Used to link a CSS document to an HTML document. | 
+1. 1
+2. 2
+3. 3
+4. 4
+1. <head>
+2. <link rel="stylesheet" href="styles.css">
+3. </head>
+4.  Copied! |
+| <meta> | Used to provide metadata about the HTML document. | 
+1. 1
+2. 2
+3. 3
+4. 4
+1. <head>
+2. <meta name="author" content="Christopher Moore">
+3. </head>
+4.  Copied! |
+| <nav> | Used to define a set of navigational elements. | 
+1. 1
+2. 2
+3. 3
+4. 4
+5. 5
+6. 6
+1. <nav>
+2. <a href="home.html">Home</a>
+3. <a href="page1.html">Page 1</a>
+4. <a href="page2.html">Page 2</a>
+5. </nav>
+6.  Copied! |
+| <ol> | Element that creates an ordered list using numbers. Should be used in conjunction with the <li> tag. | 
+1. 1
+2. 2
+3. 3
+4. 4
+1. <ol>
+2. <li>Numbered bullet point 1</li>
+3. <li>Numbered bullet point 2</li>
+4. </ol>Copied! |
+| <p> | This tag is used to identify a paragraph. It places a line break after the text it is enclosed in. | 
+1. 1
+2. 2
+3. 3
+4. 4
+1. <p>Thomas J. Watson, Sr. is the American 
+2. industrialist, who built the International Business 
+3. Machines Corporation (IBM) into the largest 
+4. manufacturer of electric typewriters and data processing equipment in the world. </p>Copied! |
+| <script> | Used to embed Javascript in an HTML document. | 
+1. 1
+2. 2
+3. 3
+1. <script>
+2. alert("Hello World");
+3. </script>Copied! |
+| <section> | Defines an important section of a document. Can be used within headers and footers as well. | 
+1. 1
+2. 2
+3. 3
+4. 4
+5. 5
+6. 6
+1. <section>
+2.  <h2>Introduction</h2>
+3.  <p>This document provides some examples of how to 
+4.  use a variety of HTML elements</p>
+5. </section>
+6.  Copied! |
+| <style> | Used to apply simple CSS to an HTML document. | 
+1. 1
+2. 2
+3. 3
+4. 4
+5. 5
+6. 6
+7. 7
+8. 8
+9. 9
+1. <head>
+2. <style>
+3. p {color:red}
+4. </style>
+5. </head>
+6. <body>
+7. <p>This paragraph will be red because I've styled
+8. the paragraph tag with CSS.</p>
+9. </body>Copied! |
+| <table> | This tag is used to denote a table. Should be used with <tr> (defines a table row) and <td> (defines a table cell within a row) tags. The <th> tag can also be used to define the table header row. | 
+1. 1
+2. 2
+3. 3
+4. 4
+5. 5
+6. 6
+7. 7
+8. 8
+9. 9
+10. 10
+11. 11
+12. 12
+13. 13
+1. <table>
+2. <tr>
+3. <th>Header cell 1</th>
+4. <th>Header cell 2</th></tr>
+5. <tr>
+6. <td>First row first cell</td>
+7. <td>First row second cell</td>
+8. </tr>
+9. <tr>
+10. <td>Second row first cell</td>
+11. <td>Second row second cell</td>
+12. </tr>
+13. </table>Copied! |
+| <td> | Denotes a cell within a row, within a table. | 
+1. 1
+2. 2
+3. 3
+4. 4
+5. 5
+6. 6
+7. 7
+8. 8
+9. 9
+10. 10
+11. 11
+12. 12
+13. 13
+14. 14
+1. <table>
+2. <tr>
+3. <th>Header cell 1</th>
+4. <th>Header cell 2</th>
+5. </tr>
+6. <tr>
+7. <td>First row first cell</td>
+8. <td>First row second cell</td>
+9. </tr>
+10. <tr>
+11. <td>Second row first cell</td>
+12. <td>Second row second cell</td>
+13. </tr>
+14. </table>	 Copied! |
+| <th> | Denotes the header cells within a row within a table. | 
+1. 1
+2. 2
+3. 3
+4. 4
+5. 5
+6. 6
+7. 7
+8. 8
+9. 9
+10. 10
+11. 11
+12. 12
+13. 13
+14. 14
+1. <table>
+2. <tr>
+3. <th>Header cell 1</th>
+4. <th>Header cell 2</th>
+5. </tr>
+6. <tr>
+7. <td>First row first cell</td>
+8. <td>First row second cell</td>
+9. </tr>
+10. <tr>
+11. <td>Second row first cell</td>
+12. <td>Second row second cell</td>
+13. </tr>
+14. </table>	 Copied! |
+| <title> | Defines the title of the HTML document displayed in the browser's title bar and tabs. It is required in all HTML documents. It should be contained in the <head> tag. | 
+1. 1
+2. 2
+3. 3
+4. 4
+5. 5
+6. 6
+7. 7
+8. 8
+9. 9
+1. <!DOCTYPE html>
+2. <html>
+3. <head>
+4. <title>Document Title</title>
+5. </head>
+6. <body>
+7. Document body here
+8. </body>
+9. </html>	 Copied! |
+| <tr> | Denotes a row within a table. | 
+1. 1
+2. 2
+3. 3
+4. 4
+5. 5
+6. 6
+7. 7
+8. 8
+9. 9
+10. 10
+11. 11
+12. 12
+13. 13
+14. 14
+1. <table>
+2. <tr>
+3. <th>Header cell 1</th>
+4. <th>Header cell 2</th>
+5. </tr>
+6. <tr>
+7. <td>First row first cell</td>
+8. <td>First row second cell</td>
+9. </tr>
+10. <tr>
+11. <td>Second row first cell</td>
+12. <td>Second row second cell</td>
+13. </tr>
+14. </table>Copied! |
+| <ul> | Element that creates an unordered list using bullets. Should be used in conjunction with the <li> tag. | 
+1. 1
+2. 2
+3. 3
+4. 4
+5. 5
+1. <ul>
+2. <li>Bullet point 1</li>
+3. <li>Bullet point 2</li>
+4. </ul>
+5.  |
